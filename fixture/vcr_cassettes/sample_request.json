@@ -1,0 +1,36 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.1.0"
+      },
+      "method": "get",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com"
+    },
+    "response": {
+      "body": "{\"message\":\"Welcome to Razorpay API.\"}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Sun, 21 Aug 2016 09:20:22 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "38",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

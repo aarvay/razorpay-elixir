@@ -23,7 +23,8 @@ defmodule Razorpay.Mixfile do
     [{:hackney, "~> 1.6"},
      {:poison, "~> 2.0"},
      {:exvcr, "~> 0.8", only: :test},
-     {:mock, "~> 0.1.1", only: :test}]
+     {:mock, "~> 0.1.1", only: :test},
+     {:ex_doc, "~> 0.12", only: :dev}]
   end
 
   defp description do

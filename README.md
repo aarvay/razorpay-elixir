@@ -8,7 +8,7 @@ First, add Razorpay to your mix.exs dependencies:
 
 ```elixir
 def deps do
-  [{:razorpay, "~> 0.1.0"}]
+  [{:razorpay, "~> 0.5.0"}]
 end
 ```
 

@@ -1,0 +1,70 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.1.0"
+      },
+      "method": "get",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/refunds"
+    },
+    "response": {
+      "body": "{\"entity\":\"collection\",\"count\":10,\"items\":[{\"id\":\"rfnd_6A2OoiNiprrdHv\",\"entity\":\"refund\",\"amount\":2000,\"currency\":\"INR\",\"payment_id\":\"pay_6A0eCkctN4CdCM\",\"notes\":[],\"created_at\":1471948773},{\"id\":\"rfnd_6A2Fz5bOlAZ4wF\",\"entity\":\"refund\",\"amount\":5000,\"currency\":\"INR\",\"payment_id\":\"pay_6A0ehTGnXelhFE\",\"notes\":[],\"created_at\":1471948271},{\"id\":\"rfnd_69nQR0S9QEqFAb\",\"entity\":\"refund\",\"amount\":50,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471896040},{\"id\":\"rfnd_69nQ5sgJWezYHs\",\"entity\":\"refund\",\"amount\":200,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471896021},{\"id\":\"rfnd_69nPult4VlRNN6\",\"entity\":\"refund\",\"amount\":100,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471896011},{\"id\":\"rfnd_69nPrBKYqzTr8e\",\"entity\":\"refund\",\"amount\":400,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471896008},{\"id\":\"rfnd_69nPkK0j8lMgAJ\",\"entity\":\"refund\",\"amount\":100,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471896001},{\"id\":\"rfnd_69nPdHWvulwLqV\",\"entity\":\"refund\",\"amount\":2000,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471895995},{\"id\":\"rfnd_69nNfHkILqSr4A\",\"entity\":\"refund\",\"amount\":1000,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471895883},{\"id\":\"rfnd_69nN2unuPEiIgU\",\"entity\":\"refund\",\"amount\":1000,\"currency\":\"INR\",\"payment_id\":\"pay_68zVHFmfbzti4y\",\"notes\":[],\"created_at\":1471895848}]}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Tue, 23 Aug 2016 11:06:00 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "1508",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.1.0"
+      },
+      "method": "get",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/refunds/rfnd_6A2OoiNiprrdHv"
+    },
+    "response": {
+      "body": "{\"id\":\"rfnd_6A2OoiNiprrdHv\",\"entity\":\"refund\",\"amount\":2000,\"currency\":\"INR\",\"payment_id\":\"pay_6A0eCkctN4CdCM\",\"notes\":[],\"created_at\":1471948773}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Tue, 23 Aug 2016 11:06:00 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "146",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

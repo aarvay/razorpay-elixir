@@ -16,10 +16,11 @@ defmodule Razorpay.Mixfile do
   def application do
     [applications: [:logger, :hackney]]
   end
-  
+
   defp deps do
     [{:hackney, "~> 1.6"},
      {:poison, "~> 2.0"},
-     {:exvcr, "~> 0.8", only: :test}]
+     {:exvcr, "~> 0.8", only: :test},
+     {:mock, "~> 0.1.1", only: :test}]
   end
 end

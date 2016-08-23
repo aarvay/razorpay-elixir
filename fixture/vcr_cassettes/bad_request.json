@@ -1,0 +1,36 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.1.0"
+      },
+      "method": "get",
+      "options": {
+        "basic_auth": [
+          null,
+          null
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/invalid_endpoint"
+    },
+    "response": {
+      "body": "{\"error\":{\"code\":\"BAD_REQUEST_ERROR\",\"description\":\"The requested URL was not found on the server.\"}}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Mon, 22 Aug 2016 09:48:40 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "101",
+        "Connection": "keep-alive"
+      },
+      "status_code": 400,
+      "type": "ok"
+    }
+  }
+]

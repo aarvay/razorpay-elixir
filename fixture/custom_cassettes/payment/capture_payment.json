@@ -1,0 +1,36 @@
+[
+  {
+    "request": {
+      "body": "amount=5000",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.1.0"
+      },
+      "method": "post",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/payments/fake_payment_id/capture"
+    },
+    "response": {
+      "body": "{\"id\":\"fake_payment_id\",\"entity\":\"payment\",\"amount\":5000,\"currency\":\"INR\",\"status\":\"captured\",\"order_id\":null,\"method\":\"netbanking\",\"amount_refunded\":0,\"refund_status\":null,\"captured\":true,\"description\":\"Car\",\"card_id\":null,\"bank\":\"SBIN\",\"wallet\":null,\"email\":\"test@test.com\",\"contact\":\"+919123456789\",\"notes\":[],\"fee\":144,\"service_tax\":19,\"error_code\":null,\"error_description\":null,\"created_at\":1471942632}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Tue, 23 Aug 2016 10:16:33 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "410",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

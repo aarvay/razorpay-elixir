@@ -18,7 +18,8 @@ Then, update your dependencies:
 $ mix deps.get
 ```
 
-After you've installed the dependency, you need to configure razorpay key_id and key_secret either via `config.exs` like:
+After you've installed the dependency, you need to configure razorpay key_id
+and key_secret either via `config.exs` like:
 
 ```elixir
 config :razorpay,
@@ -58,16 +59,23 @@ iex> Razorpay.Payment.capture "payment_id", 5000
   service_tax: 19, status: "captured"}}
 ```
 
-You can pass in the id or the `%Razorpay.Payment{}` as the first argument.
+You can pass in the `id` or the `%Razorpay.Payment{}` as the first argument.
+This applies to other entities too.
 
-### Guidelines
-
-All the entities follow the same API as mentioned above. As a general rule of thumb, the arity of each function will be equal to the number of required fields for that call. Consult the [official docs](https://docs.razorpay.com/v1/docs) for required fields.
+All the entities follow the same API as mentioned above. As a general rule of
+thumb, the arity of each function will be equal to the number of required
+fields for that call. Consult the
+[official docs](https://docs.razorpay.com/v1/docs) for required fields.
 
 ## Notes
 
-- Currently supports all endpoints that are described in the official documentaion. The Orders API is not documented yet, and thus have not been implemented.
-- This library is *not officially supported* by Razorpay, but is well typed and tested.
-- The `/payments/:id/refunds` endpoint as described in the docs, support options to be passed, but doesn't work. That particular test has been disabled for now.
+- Currently supports all endpoints that are described in the official
+documentaion. The Orders API is not documented yet, and thus have not been
+implemented.
+- This library is *not officially supported* by Razorpay, but is well typed and
+tested.
+- The `/payments/:id/refunds` endpoint as described in the docs, support
+options to be passed, but doesn't work. That particular test has been disabled
+for now.
 
 If anyone from Razorpay sees this, please get in touch with me.

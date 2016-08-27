@@ -1,4 +1,6 @@
 defmodule Razorpay.Error do
+  @derive {Poison.Encoder}
+
   defexception [:code, :description, :field]
 
   @type t :: %__MODULE__{code: binary, description: binary, field: binary}

@@ -1,7 +1,7 @@
 defmodule Razorpay.Refund do
   import Razorpay
 
-  @derive [Poison.Encoder]
+  @derive {Poison.Encoder, except: [:entity]}
 
   defstruct [:id, :amount, :currency, :payment_id, :notes,
     :created_at]

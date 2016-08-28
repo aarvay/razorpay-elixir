@@ -5,7 +5,7 @@ defmodule Razorpay.Payment do
 
   defstruct [:id, :amount, :currency, :status, :method, :description,
   :refund_status, :amount_refunded, :email, :contact, :fee, :service_tax,
-  :error_code, :error_description, :notes, :created_at]
+  :error_code, :error_description, :notes, :order_id, :created_at]
 
   @type t :: %__MODULE__{id: binary, amount: integer, currency: binary,
   status: binary, method: binary, description: binary, refund_status: binary,

@@ -1,0 +1,70 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.5.0"
+      },
+      "method": "get",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/orders"
+    },
+    "response": {
+      "body": "{\"entity\":\"collection\",\"count\":1,\"items\":[{\"id\":\"order_6BhqNWNXXKZWAE\",\"entity\":\"order\",\"amount\":5000,\"currency\":\"INR\",\"receipt\":\"TEST\",\"status\":\"created\",\"attempts\":0,\"notes\":[],\"created_at\":1472313065}]}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Sun, 28 Aug 2016 06:53:00 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "205",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.5.0"
+      },
+      "method": "get",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/orders/order_6BhqNWNXXKZWAE"
+    },
+    "response": {
+      "body": "{\"id\":\"order_6BhqNWNXXKZWAE\",\"entity\":\"order\",\"amount\":5000,\"currency\":\"INR\",\"receipt\":\"TEST\",\"status\":\"created\",\"attempts\":0,\"notes\":[],\"created_at\":1472313065}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Sun, 28 Aug 2016 06:53:00 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "161",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

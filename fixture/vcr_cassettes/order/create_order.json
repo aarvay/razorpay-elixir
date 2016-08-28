@@ -1,0 +1,36 @@
+[
+  {
+    "request": {
+      "body": "amount=5000&currency=INR&receipt=TEST",
+      "headers": {
+        "User-Agent": "Razorpay-Elixir/0.5.0"
+      },
+      "method": "post",
+      "options": {
+        "basic_auth": [
+          "key_id",
+          "key_secret"
+        ]
+      },
+      "request_body": "",
+      "url": "https://api.razorpay.com/v1/orders"
+    },
+    "response": {
+      "body": "{\"id\":\"order_6BxD85lTNK6Ad6\",\"entity\":\"order\",\"amount\":5000,\"currency\":\"INR\",\"receipt\":\"TEST\",\"status\":\"created\",\"attempts\":0,\"notes\":[],\"created_at\":1472367181}",
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, no-store, nocache, private",
+        "Content-Type": "application/json",
+        "Date": "Sun, 28 Aug 2016 06:53:01 GMT",
+        "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "Pragma": "no-cache",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Length": "161",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

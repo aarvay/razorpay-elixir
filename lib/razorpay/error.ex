@@ -1,5 +1,5 @@
 defmodule Razorpay.Error do
-  @derive {Poison.Encoder}
+  @derive [Poison.Encoder]
 
   defexception [:code, :description, :field]
 
